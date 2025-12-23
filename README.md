@@ -1,11 +1,11 @@
-# Scraper
-Bot de surveillance de prix de billets d’avions
-
+Structure du projet : 
 flight-price-tracker/
 ├── backend/
 │   ├── app.py
+│   ├── database.py
+│   ├── config.py
 │   ├── requirements.txt
-│   └── config.py
+│   └── scheduler.py
 ├── frontend/
 │   ├── index.html
 │   ├── styles.css
